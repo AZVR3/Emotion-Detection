@@ -17,7 +17,7 @@ datagen = ImageDataGenerator(rescale=1./255, validation_split=0.2)
 
 # Create train and validation generators
 train_generator = datagen.flow_from_directory(
-    directory="images/train",
+    directory="images/utrain",
     target_size=IMAGE_SIZE,
     color_mode="grayscale",
     classes=EMOTIONS,
