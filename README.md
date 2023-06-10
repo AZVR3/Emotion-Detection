@@ -13,10 +13,11 @@ The image training can be configured through the following steps:
 1. Organize the image datas.
    + Categorize them into its own respectful emotions.
    + The image data that you personally take will work better for your particular face but may not be as accurate for others.
-2. Reroute the directory in **<model.py>** to the desired training folder.
-   + You can simply replace the dataset in [images/training] if desired to do so.
-3. Rerun the **<model.py>** to update the model to the new dataset.
-4. Voila!
+2. Rearrange your organized dataset into a new folder.
+3. Reroute the directory in **<model.py>** to the desired training folder.
+   + Or you can simply replace the dataset in [images/training] if desired to do so.
+4. Rerun the **<model.py>** to update the model to the new dataset.
+5. Voila!
 
 ---
 
