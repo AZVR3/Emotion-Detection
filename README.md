@@ -25,6 +25,7 @@ The image training can be configured through the following steps:
 v1.0.0 - Completion of emotion detection. 
    + Issue detected was that the program was only optimized for windows.
    + Separate mac compatible code would have to be made.
+<br>
 v1.1.0 - To be arrived
 
 ---
