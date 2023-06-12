@@ -21,6 +21,14 @@ The image training can be configured through the following steps:
 
 ---
 
+## Update
+v1.0.0 - Completion of emotion detection. 
+   + Issue detected was that the program was only optimized for windows.
+   + Separate mac compatible code would have to be made.
+v1.1.0 - To be arrived
+
+---
+
 ※ NEVER CONFIGURE THE **<haarcascade_frontalface_default.xml>** AS THAT WOULD MAKE THE MODEL NOT BE ABLE TO UPDATE ITSELF.
 
 ---
