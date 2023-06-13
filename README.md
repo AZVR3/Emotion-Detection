@@ -25,7 +25,8 @@ The image training can be configured through the following steps:
 v1.0.0 - Completion of emotion detection. 
    + Issue detected was that the program was only optimized for windows.
    + Separate mac compatible code would have to be made.
-<br>
+
+
 v1.1.0 - To be arrived
    + Issue was resolved by adding "pip install tensorflow-macos" and "pip install tensorflow-metal". 
    + Code was further modified to be compatible with macOS as they don't have a compatible GPU with the normal tensorflow.
