@@ -27,6 +27,9 @@ v1.0.0 - Completion of emotion detection.
    + Separate mac compatible code would have to be made.
 <br>
 v1.1.0 - To be arrived
+   + Issue was resolved by adding "pip install tensorflow-macos" and "pip install tensorflow-metal". 
+   + Code was further modified to be compatible with macOS as they don't have a compatible GPU with the normal tensorflow.
+   + The model was built outside of the correct directory so if you want to update the model the directory must be redefined.
 
 ---
 
