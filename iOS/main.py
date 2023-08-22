@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 print(cv2.__version__)
 
 # Load model
-model = load_model("emotion_detector.h5")
+model = load_model("iOS/emotion_detector.h5")
 
 # Define constants
 EMOTIONS = ["angry", "disgust", "fear", "happy", "neutral", "sad", "surprise"]
@@ -15,7 +15,7 @@ NUM_CLASSES = len(EMOTIONS)
 IMAGE_SIZE = (48, 48)
 
 # Create face detector
-face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("iOS/haarcascade_frontalface_default.xml")
 
 # Create video capture
 cap = cv2.VideoCapture(0)
